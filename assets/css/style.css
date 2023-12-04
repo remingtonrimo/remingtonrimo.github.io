@@ -135,7 +135,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #F0EAD6;
+  color: #FFFFFF;
 }
 
 #header .logo img {
@@ -236,7 +236,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #F0EAD6;
+  color: #FFFFFF;
 }
 
 .navbar .dropdown ul {
@@ -310,7 +310,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #F0EAD6;
+  color: #FFFFFF;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -368,7 +368,7 @@ h6 {
 .navbar-mobile a:focus {
   font-size: 15px;
   padding-right: 15px;
-  color: #F0EAD6;
+  color: #FFFFFF;
 }
 
 .navbar-mobile a:hover,
@@ -762,7 +762,7 @@ section {
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #F0EAD6;
+  color: #FFFFFF;
 }
 
 .resume .resume-item {
@@ -1275,7 +1275,7 @@ section {
 #footer {
   background: #102c43;
   padding: 30px 0;
-  color: #F0EAD6;
+  color: #FFFFFF;
   font-size: 14px;
   text-align: center;
 }
