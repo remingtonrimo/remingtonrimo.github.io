@@ -422,18 +422,21 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/background-01.jpg") top right;
+  background: url("../img/background-03.jpg") top right;
   background-size: cover;
 }
 
 #hero .container {
+  background-color: rgb(16 44 67 / 50%);
+  width: 450px;
   padding-top: 70px;
   position: relative;
 }
 
 @media (max-width: 992px) {
   #hero .container {
-    padding-top: 58px;
+    padding: 58px;
+	padding-top: 58px;
   }
 }
 
@@ -462,12 +465,13 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
+  margin-bottom: 30px;
   color: #fff;
   background: #34b7a7;
 }
 
 #hero .btn-about:hover {
-  background: #750505;
+  background: #102c43;
 }
 
 @media (min-width: 1024px) {
