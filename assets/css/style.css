@@ -10,18 +10,18 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #030503;
-  background: #FFFFFF;
+  font-family: "Ubuntu Mono", sans-serif;
+  color: #ffffff;
+  background: #1F2424;
 }
 
 a {
-  color: #611327;
+  color: #FF00FF;
   text-decoration: none;
 }
 
 a:hover {
-  color: #611327;
+  color: #FF00FF;
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu Mono", monospaced;
 }
 
 #main {
@@ -55,7 +55,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #030503;
+  background: #1F2424;
 }
 
 #preloader:before {
@@ -63,8 +63,8 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #611327;
-  border-top-color: #dcf5f2;
+  border: 6px solid #AE81FF;
+  border-top-color: #ffffff;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -91,7 +91,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #611327;
+  background: #4102b3;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -105,7 +105,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #611327;
+  background: #AE81FF;
   color: #fff;
 }
 
@@ -118,7 +118,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #9D2235;
+  background: #282F2F;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -131,13 +131,13 @@ h6 {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 #header .logo a {
   color: #FFFFFF;
 }
-
+  
 #header .logo img {
   max-height: 40px;
 }
@@ -146,6 +146,9 @@ h6 {
   #header .logo {
     font-size: 28px;
   }
+}
+#header .logo a:hover {
+  color: #11fa00;
 }
 
 /*--------------------------------------------------------------
@@ -156,7 +159,7 @@ h6 {
 }
 
 .header-social-links a {
-  color: #6f6f6f;
+  color: #FFFFFF;
   padding-left: 6px;
   display: inline-block;
   line-height: 0px;
@@ -165,7 +168,7 @@ h6 {
 }
 
 .header-social-links a:hover {
-  color: #611327;
+  color: #FD971F;
 }
 
 /*--------------------------------------------------------------
@@ -196,10 +199,10 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu Mono", monospaced;
   font-size: 15px;
   font-weight: 600;
-  color: #888888;
+  color: #FFFFFF;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -219,7 +222,7 @@ h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #611327;
+  background-color: #0047AB;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -249,7 +252,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #1F2424;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -274,7 +277,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #611327;
+  color: #0047AB;
 }
 
 .navbar .dropdown:hover>ul {
@@ -359,7 +362,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #9D2235;
+  background-color: #282F2F;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -374,7 +377,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #611327;
+  color: #0047AB;
 }
 
 .navbar-mobile .getstarted,
@@ -409,7 +412,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #611327;
+  color: #0047AB;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -422,12 +425,12 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/background-03.jpg") top right;
+  background: url("../img/website_background.jpg") top right;
   background-size: cover;
 }
 
 #hero .container {
-  background-color: rgb(157 34 53 / 50%);
+  background-color: rgb(0 0 0 / 50%);
   width: 450px;
   padding-top: 70px;
   position: relative;
@@ -455,7 +458,7 @@ h6 {
 }
 
 #hero .btn-about {
-  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu Mono", monospaced;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
@@ -467,11 +470,37 @@ h6 {
   margin-top: 30px;
   margin-bottom: 30px;
   color: #fff;
-  background: #611327;
+  background: #0047AB;
 }
 
 #hero .btn-about:hover {
-  background: #9D2235;
+  background: #282F2F;
+}
+
+.audio-container {
+    position: relative;
+    text-align: center;
+}
+
+audio {
+    display: none; /* Hide the audio element entirely */
+}
+
+.play-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0047AB;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.play-link:hover {
+    background-color: #282F2F;
 }
 
 @media (min-width: 1024px) {
@@ -510,7 +539,7 @@ section {
 }
 
 .section-bg {
-  background-color: #e7f8f6;
+  background-color: #FFFFFF;
 }
 
 .section-title {
@@ -533,7 +562,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #611327;
+  background: #0047AB;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -562,7 +591,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu Mono", monospaced;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -577,8 +606,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #611327;
-  border: 2px solid #611327;
+  background: #0047AB;
+  border: 2px solid #0047AB;
 }
 
 @media (max-width: 1024px) {
@@ -601,7 +630,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #555555;
+  color: #11fa00;
 }
 
 .about .content ul {
@@ -616,7 +645,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #611327;
+  color: #0047AB;
 }
 
 .about .content p:last-child {
@@ -639,8 +668,8 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #000000;
+  font-family: "Ubuntu Mono", monospaced;
+  color: #FFFFFF;
 }
 
 .skills .progress .skill .val {
@@ -649,14 +678,14 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f3f3f3;
+  background: #11fa00;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #611327;
+  background-color: #11fa00;
 }
 
 /*--------------------------------------------------------------
@@ -665,13 +694,13 @@ section {
 .facts .counters span {
   font-size: 48px;
   display: block;
-  color: #611327;
+  color: #11fa00;
 }
 
 .facts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu Mono", monospaced;
   font-size: 14px;
 }
 
@@ -702,18 +731,18 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #FFFFFF;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #9D2235;
+  color: #FFFFFF;
   margin: 0 0 15px 0;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #c8efea;
+  color: #FFFFFF;
   font-size: 26px;
 }
 
@@ -749,13 +778,13 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #FFFFFF;
   opacity: 1;
-  border: 1px solid #611327;
+  border: 1px solid #11fa00;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #611327;
+  background-color: #11fa00;
 }
 
 /*--------------------------------------------------------------
@@ -772,7 +801,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #611327;
+  border-left: 2px solid #0047AB;
   position: relative;
 }
 
@@ -780,19 +809,19 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #9D2235;
+  font-family: "Ubuntu Mono", monospaced;
+  color: #282F2F;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #effbf9;
+  background: #ffffff;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #611327;
+  color: #0047AB;
 }
 
 .resume .resume-item ul {
@@ -816,7 +845,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #611327;
+  border: 2px solid #0047AB;
 }
 
 /*--------------------------------------------------------------
@@ -865,7 +894,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #9D2235;
+  color: #282F2F;
   transition: ease-in-out 0.3s;
 }
 
@@ -978,7 +1007,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #611327;
+  background: #fc0303;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1091,11 +1120,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #611327;
+  border: 1px solid #0047AB;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #611327;
+  background-color: #0047AB;
 }
 
 .portfolio-details .portfolio-info {
@@ -1140,16 +1169,16 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #1F2424;
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #611327;
+  color: #FD971F;
   float: left;
   width: 44px;
   height: 44px;
-  background: #effbf9;
+  background: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1162,14 +1191,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #9D2235;
+  color: #FD971F;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #555555;
+  color: #FFFFFF;
 }
 
 .contact .info .email,
@@ -1180,7 +1209,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #611327;
+  background: #0047AB;
   color: #fff;
 }
 
@@ -1239,7 +1268,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #611327;
+  border-color: #0047AB;
 }
 
 .contact .php-email-form input {
@@ -1251,7 +1280,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #611327;
+  background: #0047AB;
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
@@ -1277,7 +1306,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #9D2235;
+  background: #282F2F;
   padding: 30px 0;
   color: #FFFFFF;
   font-size: 14px;
@@ -1290,5 +1319,5 @@ section {
 }
 
 #footer .credits a {
-  color: #611327;
+  color: #0047AB;
 }
